@@ -1,14 +1,15 @@
 import React from 'react';
+import clsx from 'clsx';
 
-const ButtonPrimary = ({ children, onClick }) => {
+const ButtonPrimary = ({ children, onClick, style }) => {
   return (
     <button 
-      className='
-      bg-[#3b4d57] w-52 h-12 border-solid rounded-full  text-base font-bold text-white
-      hover:bg-[#2b383f] hover:text-lg
-      '
+    className={clsx(
+      "bg-[#3b4d57] border-solid rounded-full  font-bold text-white",
+      "hover:bg-[#2b383f] hover:text-lg",
+      style,
       onClick={onClick} 
-    >
+    )}>
       {children}
     </button>
   );
