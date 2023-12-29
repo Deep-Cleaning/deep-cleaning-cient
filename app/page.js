@@ -1,3 +1,4 @@
+import ButtonPrimary from "./Components/ButtonPrimary"
 
 export default function Home() {
   return (
@@ -5,6 +6,10 @@ export default function Home() {
       <h1>
         Bienvenidos a Deep Cleaning
       </h1>
+      <ButtonPrimary
+        children='! Reserva Ahora !'
+      >
+      </ButtonPrimary>
     </main>
   )
 }
