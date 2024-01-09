@@ -15,7 +15,7 @@ export default function LandinPackages() {
         ">
 				Explora nuestras opciones de limpieza premium para un hogar impecable y reluciente.
       </p>
-			<article className="grid gap-4 lg:flex lg:justify-around lg: w-3/4 ">
+			<article className="grid gap-4 lg:flex lg:justify-around lg:w-3/4">
 				<CardPackages
 					tittle="Limpieza basica"
 					price="$899"

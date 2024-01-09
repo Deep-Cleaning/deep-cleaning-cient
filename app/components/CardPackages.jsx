@@ -6,7 +6,7 @@ import ButtonPrimary from "./ButtonPrimary";
 const CardPackages = ( { tittle, description, price, image }) => {
 	return (
 		<section className="h-[434px] w-[350px] border-solid border-red-700 bg-[#E7F4FA] rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] ">
-			  <Image
+			<Image
         className="w-[350px] mb-5 rounded-t-3xl" 
         src={images.imageCardTopPackages01} 
         alt="Image top card 01"/>
