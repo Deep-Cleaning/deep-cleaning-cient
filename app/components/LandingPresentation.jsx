@@ -8,13 +8,13 @@ export default function LandingPresentation() {
   return (
     <React.Fragment>
       <h1 className="
-        w-full text-center text-4xl font-bold text-[#3b4d57] mb-7 mt-11
+        w-full text-center text-4xl font-bold text-[#1e282d] mb-7 mt-11
         lg:w-3/4 lg:text-6xl
         ">
         La libertad de un hogar impecable
       </h1>
       <p className="
-        w-full text-base text-center	font-semibold text-[#3b4d57] mb-4
+        w-full text-base text-center	font-semibold text-[#1e282d] mb-4
         lg:w-2/3 lg:text-xl
         ">
         Transformamos tu hogar en un espacio relajante,
